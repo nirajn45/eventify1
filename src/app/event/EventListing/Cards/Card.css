@@ -1,0 +1,24 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #555;
+}
