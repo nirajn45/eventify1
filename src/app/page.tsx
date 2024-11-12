@@ -12,6 +12,7 @@ import Process from '@/components/Process';
 import EventCarousel from '@/components/EventCarousel';
 import Gallery from '@/components/Gallery';
 import Footer from '@/components/Footer';
+import { PlaceholdersAndVanishInputDemo } from '@/components/PlaceholdersAndVanishInputDemo';
 
 
 export default function Home() {
@@ -19,8 +20,11 @@ export default function Home() {
     <main>
       <NavbarDemo />
       <SparklesPreview />
+      <div className='mt-[-525px] mr-[-850px]'>
+      <PlaceholdersAndVanishInputDemo/>
+      </div>
       <div className="flex w-full justify-center items-center bg-black mt-[-20px]">
-     <div className="flex flex-col lg:flex-row w-10/12 justify-center items-center space-x-0 lg:space-x-4">
+     <div className="flex flex-col lg:flex-row w-10/12 justify-center items-center space-x-0 lg:space-x-4 mt-[525px]">
     <TextGenerateEffectDemo />
     <CardStackDemo />
   </div>

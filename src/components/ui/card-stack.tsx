@@ -49,6 +49,9 @@ export const CardStack = ({
             className="absolute bg-black dark:bg-black h-100 w-100 md:h-80 md:w-[27rem] rounded-3xl p-4 shadow-xl border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between"
             style={{
               transformOrigin: "top center",
+              backgroundImage: `url('https://utfs.io/f/nsz3ps3WUZRLfA6Yrk55DMmwulAEzVI0Hb4NKoTFOCeRP8Bn')`, // Add your background image here
+              backgroundSize: 'cover', // Cover the entire card
+              backgroundPosition: 'center', // Center the image
             }}
             animate={{
               top: index * -CARD_OFFSET,
@@ -56,7 +59,7 @@ export const CardStack = ({
               zIndex: cards.length - index, // decrease z-index for the cards that are behind
             }}
           >
-            <div className="font-normal text-neutral-200 dark:text-neutral-200">
+            {/* <div className="font-normal text-neutral-200 dark:text-neutral-200">
               {card.content}
             </div>
             <div>
@@ -66,7 +69,7 @@ export const CardStack = ({
               <p className="text-neutral-400 font-normal dark:text-neutral-200">
                 {card.designation}
               </p>
-            </div>
+            </div> */}
           </motion.div>
         );
       })}

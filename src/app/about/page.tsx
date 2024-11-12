@@ -2,6 +2,9 @@ import React from 'react'
 import { SparklesPreview } from "@/components/SparklesPreview";
 import { TextGenerateEffectDemo } from '@/components/TextGenerateEffectDemo';
 import { CardStackDemo } from '@/components/CardStackDemo';
+import MulCharts from '@/components/ManagementDesk';
+import Philosophy from '@/components/Philosophy';
+import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
 
 
 function page() {
@@ -14,6 +17,9 @@ function page() {
     <CardStackDemo />
   </div>
 </div>
+<MulCharts/>
+<TextRevealCardPreview/>
+<Philosophy/>
     </div>
   )
 }

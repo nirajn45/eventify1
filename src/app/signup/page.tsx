@@ -1,11 +1,12 @@
 
+import RequestDemo from '@/components/Signup'
 import React from 'react'
-import { Signup } from '@/components/Signup'
+
 
 function page() {
   return (
-    <div>
-      <Signup />
+    <div >
+      <RequestDemo/>
     </div>
   )
 }
